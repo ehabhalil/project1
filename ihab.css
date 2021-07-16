@@ -1,0 +1,159 @@
+html {
+    scroll-behavior: smooth;
+    overflow: scroll;
+}
+#container {
+    background-color: #f5f5f5;
+    align-self: center;
+    border-top: solid #198ba5 5px;
+    border-bottom:solid #198ba5 5px;
+    margin-left:200px;
+    padding:20px ;
+    position: relative;
+    block-size: 100%;  
+    width: 60%;
+}
+h1 {
+    font-size: 65px;
+    font-family: adobe-thai, serif;
+    margin-bottom: 5px;
+    font-size: 36px;
+    margin-right: 150px;
+    margin-left: 20px;
+}
+button {
+    background-color:#198ba5;
+    color: white;
+    margin-bottom: 2px;
+    height: 30px;
+    width:160px;
+}
+.des-parent{
+    display: flex;
+}
+#profile{
+    margin-right: 118px;
+}
+.email{
+    color: red;
+}
+#titl , #print{
+    display: inline-block;
+}
+.info-title{
+    margin-left: 20px;
+    font-style: italic;
+    margin-right: 70px;
+}
+#job-describtion {
+    margin-top: 5px;
+    margin-left: 20px;
+    font-size: 18px;
+    font-style: italic;
+}
+h2 {
+    font-family:'Times New Roman', Times, serif;
+    margin-right: 100px;
+    font-weight: lighter;
+}
+h3{
+    font-weight: lighter;
+    margin-bottom: 0px;
+}
+#profile-p,h2{
+    display:inline-flex;
+}
+.skill-parent{
+    display: flex;
+}
+.skills{
+    display:inline-table ;
+    padding-right: 30px;  
+}
+#techno-parent{
+    display:flex;
+}
+#techno-title{
+    margin-right: -40px;
+}
+.small-hr{
+    position:relative;
+    float: center;
+    width: 680px;
+}
+.technical{
+    display: table;
+    text-align: left;
+    padding-top: 23px;
+    margin-left: 60px;
+}
+.technical-title-left{
+    display: inline;
+    padding-right: 150px;
+    text-align: left;
+}
+.technical-title-center{
+    display: inline;
+    padding-right: 150px;
+    text-align: left;
+}
+.technical-title-right{
+    display: inline;
+    padding-right: 0px;
+    text-align: left;
+}
+#jq{
+    padding-right: 172px;
+}
+#css{
+    padding-right: 177px;
+}
+#php{
+    padding-right: 187px;
+}
+#cvs{
+    padding-right: 105px;
+}
+#js{
+    padding-right: 140px;
+}
+#expe-parent{
+    display: flex;
+}
+.experience{
+    display:inline-block;
+    padding: 0px;
+    margin-left: 0px;
+}
+.exper-title{
+    padding-top: 10px;
+    margin-bottom: 0px;
+}
+.experience-comment{
+    margin-top: 0px;
+    margin-bottom: 5px;
+    inline-size: 350px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+}
+.experience-date{
+    width: 100px;
+    margin-left: 250px;
+    text-align: center;
+}
+.expe2{
+    display: flex;
+}
+.expe-h{
+    margin-right: 40px;
+}
+.edu-parent{
+    display: flex;
+}
+#edu{
+    
+    padding-left: 0px;
+}
+footer{
+    margin-left: 25%;
+}
